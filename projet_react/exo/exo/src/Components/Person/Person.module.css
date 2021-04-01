@@ -1,0 +1,21 @@
+.div1{
+    box-shadow: 5px 5px 4px lightskyblue;
+    width:150px;
+    height: 150px;
+    padding-left: 3%;
+    padding-top: 3%;
+    margin:10px;
+    border: 2px solid lightskyblue;
+  
+}
+
+.div1:hover{
+    margin-top:25px;
+    transition:all 1s;
+}
+
+
+.warn{
+    border:2px solid firebrick; 
+    box-shadow: 5px 5px 4px firebrick;
+}

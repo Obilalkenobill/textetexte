@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.message{
+  margin-top:30%;
+  border:solid 3px goldenrod;
+  box-shadow: 10px 10px 7px goldenrod;
+  margin-left:-40%;
+  display: none;
+  font-size: xx-large;
+}
+
+/* div[class*='Person_div1']:hover + .message {
+  display:flex;
+} */
+.div2:hover + .message {
+   transition:all 1s;
+  display:flex;
+}
+.div3:hover + .message {
+  transition:all 1s;
+  display:flex !important;
+}
+.div4:hover + .message {
+  transition:all 1s;
+  display:flex;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
